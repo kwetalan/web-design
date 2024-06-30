@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700');
+
+@media(max-width: 1200px) {
+    .cover{
+        flex-direction: column;
+    }
+
+    .right{
+        width: 100%;
+        margin-top: 64px;
+    }
+}
+
+.keywords{
+    margin-top: 128px;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 48px;
+    margin: 48px 0;
+}
+
+p{
+    font-size: 32px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.left span{
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 8px 16px;
+    margin-left: -16px;
+    margin-right: 38px;
+    font-size: 32px;
+}
+
+.main a{
+    color: var(--emphasize);
+    margin-right: 38px;
+    font-size: 32px;
+}
+
+.cover p{
+    width: 90%;
+    font-family: 'Lora', serif;
+}
+
+.text{
+    margin-top: 48px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.mockup{
+    position: relative;
+    height: fit-content;
+}
+
+.mockup img{
+    position: relative;
+    z-index: 1;
+}
+
+.desktop-screen{
+    width: 67%;
+    height: 60%;
+    top: 3%;
+    left: 12%;
+    background-position: top;
+    background-size: 100%;
+    transition: 15s;
+    position: absolute;
+}
+
+.mobile-screen{
+    width: 53%;
+    height: 94%;
+    top: 2%;
+    left: 20%;
+    background-position: top;
+    background-size: 100%;
+    transition: 15s;
+    position: absolute;
+}
+
+
+.main:hover .desktop-screen{
+    background-position: bottom;
+}
+
+.tools{
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+}
+
+.tool{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 48px;
+}
+
+.tool img{
+    height: 80px;
+    margin-bottom: 24px;
+}
+
+.tool p{
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+.figma{
+    display: flex;
+}
+
+.figma>*{
+    margin-right: 8px;
+}
+
+.figma:hover>*{
+    filter: hue-rotate(-45deg);
+}
+
+.ending{
+    margin: 45px auto;
+    width: 20%;
+}
