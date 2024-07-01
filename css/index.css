@@ -14,10 +14,6 @@
 }
 
 @media(max-width: 1200px) {
-    h1{
-        font-size: 40px!important;
-    }
-
     #name{
         font-size: 32px!important;
         display: block!important;
@@ -34,12 +30,17 @@
     #line-12{
         margin-top: -40px!important;
     }
-
-    p{
-        font-size: 24px!important;
-    }
 }
 
+@media(max-width: 500px) {
+    #line-12{
+        margin-top: 40px!important;
+    }
+
+    .card{
+        font-size: 8px!important;
+    }
+}
 
 #name{
     font-size: 64px;

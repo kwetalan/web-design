@@ -5,6 +5,30 @@
         width: 100%;
         margin-top: 64px;
     }
+
+    .text{
+        width: 100%;
+    }
+
+    .main img{
+        width: 100%;
+    }
+
+    .tools{
+        flex-wrap: wrap;
+    }
+
+    .tool{
+        margin-right: 8px;
+    }
+
+    .tool img{
+        height: auto!important;
+    }
+
+    .ending{
+        width: 100%!important;
+    }
 }
 
 .keywords{

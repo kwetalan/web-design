@@ -7,8 +7,24 @@
 }
 
 @media(max-width: 1300px) {
+    h1{
+        font-size: 40px!important;
+    }
+
+    p{
+        font-size: 24px!important;
+    }
+
+    .menu{
+        width: auto!important;
+    }
+
     .menu-item{
         font-size: 48px!important;
+    }
+
+    .menu img{
+        width: 48px;
     }
 
     .main{
