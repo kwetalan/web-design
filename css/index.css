@@ -1,3 +1,46 @@
+@media(max-width: 1440px) {
+    .card{
+        font-size: 24px!important;
+    }
+
+    #line-12{
+        margin-top: -20px!important;
+    }
+
+    .works_cards{
+        flex-wrap: wrap;
+        justify-content: center!important;
+    }
+}
+
+@media(max-width: 1200px) {
+    h1{
+        font-size: 40px!important;
+    }
+
+    #name{
+        font-size: 32px!important;
+        display: block!important;
+    }
+
+    .cover{
+        padding-right: 8px!important;
+    }
+
+    .card{
+        font-size: 12px!important;
+    }
+
+    #line-12{
+        margin-top: -40px!important;
+    }
+
+    p{
+        font-size: 24px!important;
+    }
+}
+
+
 #name{
     font-size: 64px;
     display: flex;

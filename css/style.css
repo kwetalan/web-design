@@ -8,7 +8,12 @@
 
 @media(max-width: 1300px) {
     .menu-item{
-        font-size: 24px!important;
+        font-size: 48px!important;
+    }
+
+    .main{
+        padding-left: 100px!important;
+        flex-direction: column;
     }
 }
 
@@ -32,8 +37,6 @@ h1{
 
 .main{
     display: flex;
-    padding-left: 200px;
-    padding-top: 45px;
     padding: 45px 0 45px 200px;
 }
 
@@ -115,10 +118,6 @@ h1{
 .icons a:hover .contacts-descriptor{
     visibility: visible;
     color: #a2ac3a;
-}
-
-svg{
-    color: var(--secondary)!important;
 }
 
 a{
