@@ -10,7 +10,7 @@
         width: 100%;
     }
 
-    .main img:not(.mockup img){
+    .main img:not(.mockup img, .figma img){
         width: 100%;
     }
 
