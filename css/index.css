@@ -29,12 +29,14 @@
 
     #line-12{
         margin-top: -40px!important;
+        margin-left: 40px;
     }
 }
 
 @media(max-width: 500px) {
     #line-12{
-        margin-top: 40px!important;
+        margin-top: -20px!important;
+        
     }
 
     .card{
